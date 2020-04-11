@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="io.hailiang.web.book.dao.LendReturnListMapper">
-    <resultMap id="BaseResultMap" type="io.hailiang.web.book.model.LendReturnList">
+<mapper namespace="liu.web.book.dao.LendReturnListMapper">
+    <resultMap id="BaseResultMap" type="liu.web.book.model.LendReturnList">
         <id column="lend_return_id" property="lendReturnId" jdbcType="INTEGER"/>
         <result column="book_id" property="bookId" jdbcType="INTEGER"/>
         <result column="user_id" property="userId" jdbcType="BIGINT"/>
@@ -28,7 +28,7 @@
     delete from lend_return_list
     where lend_return_id = #{lendReturnId,jdbcType=INTEGER}
   </delete>
-    <insert id="insert" parameterType="io.hailiang.web.book.model.LendReturnList">
+    <insert id="insert" parameterType="liu.web.book.model.LendReturnList">
     insert into lend_return_list (lend_return_id, book_id, user_id, 
       lend_date, should_lend_days, should_return_date, 
       return_date, is_damage, damage_degree, 
@@ -38,7 +38,7 @@
       #{returnDate,jdbcType=DATE}, #{isDamage,jdbcType=INTEGER}, #{damageDegree,jdbcType=VARCHAR}, 
       #{damageNote,jdbcType=VARCHAR})
   </insert>
-    <insert id="insertSelective" parameterType="io.hailiang.web.book.model.LendReturnList">
+    <insert id="insertSelective" parameterType="liu.web.book.model.LendReturnList">
         insert into lend_return_list
         <trim prefix="(" suffix=")" suffixOverrides=",">
             <if test="lendReturnId != null">
@@ -105,7 +105,7 @@
             </if>
         </trim>
     </insert>
-    <update id="updateByPrimaryKeySelective" parameterType="io.hailiang.web.book.model.LendReturnList">
+    <update id="updateByPrimaryKeySelective" parameterType="liu.web.book.model.LendReturnList">
         update lend_return_list
         <set>
             <if test="bookId != null">
@@ -138,7 +138,7 @@
         </set>
         where lend_return_id = #{lendReturnId,jdbcType=INTEGER}
     </update>
-    <update id="updateByPrimaryKey" parameterType="io.hailiang.web.book.model.LendReturnList">
+    <update id="updateByPrimaryKey" parameterType="liu.web.book.model.LendReturnList">
     update lend_return_list
     set book_id = #{bookId,jdbcType=INTEGER},
       user_id = #{userId,jdbcType=BIGINT},
@@ -153,7 +153,7 @@
   </update>
 
 
-    <select id="selectBookInfoAndUserByBookId" resultType="io.hailiang.web.book.model.LendReturnList"
+    <select id="selectBookInfoAndUserByBookId" resultType="liu.web.book.model.LendReturnList"
             parameterType="int">
     SELECT
         book_name "bookInfo.bookName",
@@ -173,7 +173,7 @@
         AND l.book_id=#{bookId}
         AND return_date is null
   </select>
-    <select id="selectLendReturnRecordByUserId" resultType="io.hailiang.web.book.model.LendReturnList"
+    <select id="selectLendReturnRecordByUserId" resultType="liu.web.book.model.LendReturnList"
             parameterType="map">
         SELECT
         book_name "bookInfo.bookName",

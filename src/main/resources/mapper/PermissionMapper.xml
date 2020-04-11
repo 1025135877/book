@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="io.hailiang.web.book.dao.PermissionMapper" >
-  <resultMap id="BaseResultMap" type="io.hailiang.web.book.model.Permission" >
+<mapper namespace="liu.web.book.dao.PermissionMapper" >
+  <resultMap id="BaseResultMap" type="liu.web.book.model.Permission" >
     <id column="permission_id" property="permissionId" jdbcType="INTEGER" />
     <result column="permission_name" property="permissionName" jdbcType="VARCHAR" />
     <result column="permission_url" property="permissionUrl" jdbcType="VARCHAR" />
@@ -25,7 +25,7 @@
     where permission_id = #{permissionId,jdbcType=INTEGER}
   </delete>
 
-    <insert id="insert" parameterType="io.hailiang.web.book.model.Permission" >
+    <insert id="insert" parameterType="liu.web.book.model.Permission" >
     insert into permission (permission_id, permission_name, permission_url, 
       permission_parent_id, permission_icon, permission_create_time, 
       permission_last_modify_time)
@@ -33,7 +33,7 @@
       #{permissionParentId,jdbcType=INTEGER}, #{permissionIcon,jdbcType=VARCHAR}, #{permissionCreateTime,jdbcType=TIMESTAMP}, 
       #{permissionLastModifyTime,jdbcType=TIMESTAMP})
   </insert>
-  <insert id="insertSelective" parameterType="io.hailiang.web.book.model.Permission" >
+  <insert id="insertSelective" parameterType="liu.web.book.model.Permission" >
     insert into permission
     <trim prefix="(" suffix=")" suffixOverrides="," >
       <if test="permissionId != null" >
@@ -82,7 +82,7 @@
       </if>
     </trim>
   </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="io.hailiang.web.book.model.Permission" >
+  <update id="updateByPrimaryKeySelective" parameterType="liu.web.book.model.Permission" >
     update permission
     <set >
       <if test="permissionName != null" >
@@ -106,7 +106,7 @@
     </set>
     where permission_id = #{permissionId,jdbcType=INTEGER}
   </update>
-  <update id="updateByPrimaryKey" parameterType="io.hailiang.web.book.model.Permission" >
+  <update id="updateByPrimaryKey" parameterType="liu.web.book.model.Permission" >
     update permission
     set permission_name = #{permissionName,jdbcType=VARCHAR},
       permission_url = #{permissionUrl,jdbcType=VARCHAR},
