@@ -80,7 +80,7 @@ public class LendBookController {
      * @param page
      * @param rows
      * @param session
-     * @return : io.hailiang.web.book.common.DataGridDataSource<io.hailiang.web.book.model.LendReturnList>
+     * @return : liu.web.book.common.DataGridDataSource<liu.web.book.model.LendReturnList>
      * @description: 根据用户ID查询借还记录
      */
     @PostMapping("/lendreturnrecord")

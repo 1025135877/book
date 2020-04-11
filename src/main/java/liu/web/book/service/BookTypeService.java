@@ -12,7 +12,7 @@ import java.util.List;
 public interface BookTypeService {
 
     /**
-     * @return : java.util.List<io.hailiang.web.book.model.BookType>
+     * @return : java.util.List<liu.web.book.model.BookType>
      * @author: luhailiang
      * @date: 2019-04-09 17:15
      * @description: 查询所有图书分类信息
@@ -21,7 +21,7 @@ public interface BookTypeService {
 
     /**
      * @param bookTypeId
-     * @return : io.hailiang.web.book.model.BookType
+     * @return : liu.web.book.model.BookType
      * @author: luhailiang
      * @date: 2019-04-10 10:49
      * @description: 通过id查询图书分类信息

@@ -50,7 +50,7 @@ public class Swagger2Config {
                 .enable(swaggerEnabled)
                 .select()
                 //为当前包路径
-                .apis(RequestHandlerSelectors.basePackage("io.hailiang.web.book.controller"))
+                .apis(RequestHandlerSelectors.basePackage("liu.web.book.controller"))
                 .paths(PathSelectors.any())
                 .build();
 //                .globalOperationParameters(pars);

@@ -65,7 +65,7 @@ public interface RoleService {
 
     /**
      * @param map
-     * @return : java.util.List<io.hailiang.web.book.model.Role>
+     * @return : java.util.List<liu.web.book.model.Role>
      * @author: luhailiang
      * @date: 2019-03-28 21:40
      * @description: 查询角色列表
@@ -85,7 +85,7 @@ public interface RoleService {
 
     /**
      * @param userId
-     * @return : java.util.List<io.hailiang.web.book.model.Role>
+     * @return : java.util.List<liu.web.book.model.Role>
      * @author: luhailiang
      * @date: 2019-03-29 17:14
      * @description: 根据用户id查找角色集合

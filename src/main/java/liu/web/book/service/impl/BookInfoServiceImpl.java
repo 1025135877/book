@@ -83,7 +83,7 @@ public class BookInfoServiceImpl implements BookInfoService {
 
     /**
      * @param map
-     * @return : java.util.List<io.hailiang.web.book.model.BookInfo>
+     * @return : java.util.List<liu.web.book.model.BookInfo>
      * @author: luhailiang
      * @date: 2019-04-15 15:53
      * @description: 查询图书列表
@@ -107,7 +107,7 @@ public class BookInfoServiceImpl implements BookInfoService {
 
     /**
      * @param bookId
-     * @return : java.util.List<io.hailiang.web.book.model.BookInfo>
+     * @return : java.util.List<liu.web.book.model.BookInfo>
      * @author: luhailiang
      * @date: 2019-04-16 19:11
      * @description: 根据id查询图书
@@ -119,7 +119,7 @@ public class BookInfoServiceImpl implements BookInfoService {
 
     /**
      * @param bookId
-     * @return : io.hailiang.web.book.model.BookInfo
+     * @return : liu.web.book.model.BookInfo
      * @author: luhailiang
      * @date: 2019-04-17 15:22
      * @description: 根据id查询图书

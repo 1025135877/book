@@ -14,7 +14,7 @@ public interface UserService {
 
     /**
      * @param userId
-     * @return : io.hailiang.web.book.model.User
+     * @return : liu.web.book.model.User
      * @author: luhailiang
      * @date: 2019-03-13 07:54
      * @description: 根据用户id查询用户
@@ -24,7 +24,7 @@ public interface UserService {
 
     /**
      * @param userName
-     * @return : io.hailiang.web.book.model.User
+     * @return : liu.web.book.model.User
      * @author: luhailiang
      * @date: 2019-03-13 07:55
      * @description: 根据用户名查询用户
@@ -62,7 +62,7 @@ public interface UserService {
 
     /**
      * @param map
-     * @return : java.util.List<io.hailiang.web.book.model.User>
+     * @return : java.util.List<liu.web.book.model.User>
      * @author: luhailiang
      * @date: 2019-03-14 16:28
      * @description: 查询用户列表

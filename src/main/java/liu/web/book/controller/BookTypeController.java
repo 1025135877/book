@@ -55,7 +55,7 @@ public class BookTypeController {
 
     /**
      * @param bookTypeId
-     * @return : io.hailiang.web.book.common.DataGridDataSource<io.hailiang.web.book.model.BookType>
+     * @return : liu.web.book.common.DataGridDataSource<liu.web.book.model.BookType>
      * @author: luhailiang
      * @date: 2019-04-10 13:24
      * @description: 根据id查询分类列表
@@ -74,7 +74,7 @@ public class BookTypeController {
 
     /**
      * @param bookTypeId
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-04-10 13:27
      * @description: 根据id删除分类
@@ -94,7 +94,7 @@ public class BookTypeController {
 
     /**
      * @param bookType
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-04-10 13:47
      * @description: 新增分类
@@ -112,7 +112,7 @@ public class BookTypeController {
 
     /**
      * @param bookType
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-04-10 13:48
      * @description: 修改分类

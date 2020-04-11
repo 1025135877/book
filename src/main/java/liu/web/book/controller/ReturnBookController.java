@@ -32,7 +32,7 @@ public class ReturnBookController {
 
     /**
      * @param bookId
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-04-18 22:17
      * @description: 根据图书id查询图书及借阅者信息
@@ -52,7 +52,7 @@ public class ReturnBookController {
 
     /**
      * @param lendReturnList
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-04-18 22:17
      * @description: 还书   超期罚款||损毁罚款  未完成

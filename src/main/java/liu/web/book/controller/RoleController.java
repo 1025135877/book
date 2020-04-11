@@ -33,7 +33,7 @@ public class RoleController {
 
     /**
      * @param role
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-03-28 20:23
      * @description: 新增角色
@@ -53,7 +53,7 @@ public class RoleController {
 
     /**
      * @param role
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-03-28 20:25
      * @description: 更新角色
@@ -72,7 +72,7 @@ public class RoleController {
 
     /**
      * @param roleId
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-03-28 20:28
      * @description: 删除角色(先根据角色id删除角色权限关联信息, 再根据角色id删除用户角色关联信息)
@@ -94,7 +94,7 @@ public class RoleController {
 
 
     /**
-     * @return : io.hailiang.web.book.common.DataGridDataSource<io.hailiang.web.book.model.Role>
+     * @return : liu.web.book.common.DataGridDataSource<liu.web.book.model.Role>
      * @author: luhailiang
      * @date: 2019-03-28 21:48
      * @description: 服务端分页查询角色列表
@@ -124,7 +124,7 @@ public class RoleController {
      * @date: 2019-03-29 22:14
      * @param roleId
      * @param permissionIds
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @description: 角色权限设置(先删除当前角色拥有的权限关系, 再重新设置)
      */
     @PostMapping("/savePermissionSet")

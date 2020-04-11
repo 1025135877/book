@@ -64,7 +64,7 @@ public class PermissionController {
     }
 
     /**
-     * @return : io.hailiang.web.book.common.DataGridDataSource<io.hailiang.web.book.common.PermissionTreeGrid>
+     * @return : liu.web.book.common.DataGridDataSource<liu.web.book.common.PermissionTreeGrid>
      * @author: luhailiang
      * @date: 2019-04-10 18:23
      * @description: 应用列表(easyui tree grid)

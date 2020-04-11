@@ -6,7 +6,7 @@ import liu.web.book.common.PageBean;
 import liu.web.book.model.Permission;
 import liu.web.book.model.Role;
 import liu.web.book.model.User;
-import io.hailiang.web.book.service.*;
+import liu.web.book.service.*;
 import liu.web.book.common.JsonData;
 import liu.web.book.util.Md5Util;
 import liu.web.book.util.PasswordCreateUtil;
@@ -47,7 +47,7 @@ public class UserController {
     /**
      * @param userName
      * @param userPassword
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-03-13 07:59
      * @description: 用户登录
@@ -118,7 +118,7 @@ public class UserController {
 
     /**
      * @param user
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-03-13 18:21
      * @description: 新增用户
@@ -138,7 +138,7 @@ public class UserController {
 
     /**
      * @param user
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-03-13 18:21
      * @description: 更新用户
@@ -157,7 +157,7 @@ public class UserController {
 
     /**
      * @param userId
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-03-13 18:21
      * @description: 根据id删除用户
@@ -179,7 +179,7 @@ public class UserController {
     /**
      * @param toMail
      * @param userId
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-03-13 21:55
      * @description: 重置用户密码并发送邮件
@@ -208,7 +208,7 @@ public class UserController {
 
     /**
      * @param userId
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-03-13 22:23
      * @description: 根据用户id禁用用户
@@ -229,7 +229,7 @@ public class UserController {
 
     /**
      * @param userId
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-03-13 22:27
      * @description: 根据id启用用户
@@ -255,7 +255,7 @@ public class UserController {
      * @param userPhone
      * @param page
      * @param rows
-     * @return : io.hailiang.web.book.common.DataGridDataSource<io.hailiang.web.book.model.User>
+     * @return : liu.web.book.common.DataGridDataSource<liu.web.book.model.User>
      * @author: luhailiang
      * @date: 2019-03-28 21:48
      * @description: 带条件服务端分页查询用户列表
@@ -297,7 +297,7 @@ public class UserController {
     /**
      * @param userId
      * @param roleIds
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-03-29 17:57
      * @description: 用户角色设置(先删除当前用户拥有的角色关系, 再重新设置)
@@ -323,7 +323,7 @@ public class UserController {
      * @param oldPassword
      * @param newPassword
      * @param session
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-04-17 09:57
      * @description: 修改密码
@@ -349,7 +349,7 @@ public class UserController {
 
     /**
      * @param userId
-     * @return : io.hailiang.web.book.common.JsonData
+     * @return : liu.web.book.common.JsonData
      * @author: luhailiang
      * @date: 2019-04-17 15:43
      * @description: 查询用户信息(借书管理)

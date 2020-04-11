@@ -8,10 +8,10 @@
         <version>1.5.17.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>io.liu.web</groupId>
+    <groupId>liu.web</groupId>
     <artifactId>book</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
     <name>book</name>
     <description>Book project for Spring Boot</description>
 

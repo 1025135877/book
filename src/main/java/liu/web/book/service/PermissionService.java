@@ -14,7 +14,7 @@ public interface PermissionService {
 
     /**
      * @param user
-     * @return : java.util.List<io.hailiang.web.book.model.Permission>
+     * @return : java.util.List<liu.web.book.model.Permission>
      * @author: luhailiang
      * @date: 2019-03-26 23:04
      * @description: 获取用户权限信息
@@ -22,7 +22,7 @@ public interface PermissionService {
     List<Permission> queryPermissionsByUser(User user);
 
     /**
-     * @return : java.util.List<io.hailiang.web.book.model.Permission>
+     * @return : java.util.List<liu.web.book.model.Permission>
      * @author: luhailiang
      * @date: 2019-03-26 23:29
      * @description: 获取所有权限列表

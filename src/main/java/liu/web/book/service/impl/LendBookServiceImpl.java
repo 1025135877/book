@@ -55,7 +55,7 @@ public class LendBookServiceImpl implements LendBookService {
 
     /**
      * @param map
-     * @return : java.util.List<io.hailiang.web.book.model.LendReturnList>
+     * @return : java.util.List<liu.web.book.model.LendReturnList>
      * @author: luhailiang
      * @date: 2019-04-19 15:39
      * @description: 根据用户ID查询借还记录
