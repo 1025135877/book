@@ -25,7 +25,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-9 col-lg-8 mx-auto">
-                            <h3 class="login-heading mb-4">欢迎使用胡鹏的图书管理系统</h3>
+                            <h3 class="login-heading mb-4">欢迎使用图书管理信息系统</h3>
                             <form id="loginForm">
                                 <div class="form-label-group">
                                     <input type="text" id="userName" class="form-control" placeholder="用户名" autofocus>
