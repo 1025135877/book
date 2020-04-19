@@ -7,7 +7,7 @@ import java.util.Map;
 
 /**
  * @Auther: luhailiang
- * @Date: 2019-03-12 16:55
+ * @Date: 2019-12-12 16:55
  * @Description: UserService
  */
 public interface UserService {
@@ -16,7 +16,7 @@ public interface UserService {
      * @param userId
      * @return : liu.web.book.model.User
      * @author: luhailiang
-     * @date: 2019-03-13 07:54
+     * @date: 2019-12-13 07:54
      * @description: 根据用户id查询用户
      */
      User findUserByUserId(Long userId);
@@ -26,7 +26,7 @@ public interface UserService {
      * @param userName
      * @return : liu.web.book.model.User
      * @author: luhailiang
-     * @date: 2019-03-13 07:55
+     * @date: 2019-12-13 07:55
      * @description: 根据用户名查询用户
      */
      User findUserByUserName(String userName);
@@ -36,7 +36,7 @@ public interface UserService {
      * @param user
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-13 17:10
+     * @date: 2019-12-13 17:10
      * @description: 新增用户
      */
      int saveUser(User user);
@@ -45,7 +45,7 @@ public interface UserService {
      * @param user
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-13 17:15
+     * @date: 2019-12-13 17:15
      * @description: 更新用户
      */
      int updateUser(User user);
@@ -54,7 +54,7 @@ public interface UserService {
      * @param userId
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-13 17:15
+     * @date: 2019-12-13 17:15
      * @description: 根据id删除用户
      */
      int deleteUser(Long userId);
@@ -64,7 +64,7 @@ public interface UserService {
      * @param map
      * @return : java.util.List<liu.web.book.model.User>
      * @author: luhailiang
-     * @date: 2019-03-14 16:28
+     * @date: 2019-12-14 16:28
      * @description: 查询用户列表
      */
      List<User> selectUserList(Map<String, Object> map);
@@ -74,7 +74,7 @@ public interface UserService {
      * @param map
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-15 17:14
+     * @date: 2019-12-15 17:14
      * @description: 查询用户总数
      */
      int getTotalUser(Map<String, Object> map);
@@ -83,7 +83,7 @@ public interface UserService {
      * @param map
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-29 22:19
+     * @date: 2019-12-29 22:19
      * @description: 为用户分配角色
      */
      int insertUserRoles(Map<String, Object> map);

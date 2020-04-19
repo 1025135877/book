@@ -12,7 +12,7 @@ import java.util.Map;
 
 /**
  * @Auther: luhailiang
- * @Date: 2019-03-12 16:42
+ * @Date: 2019-12-12 16:42
  * @Description: JWT工具类
  */
 public class JwtUtil {
@@ -27,7 +27,7 @@ public class JwtUtil {
      * @param user
      * @return : java.lang.String
      * @author: luhailiang
-     * @date: 2019-03-13 07:09
+     * @date: 2019-12-13 07:09
      * @description: 生成Token
      */
     public static String createToken(User user) {
@@ -55,7 +55,7 @@ public class JwtUtil {
      * @param token
      * @return : java.lang.String
      * @author: luhailiang
-     * @date: 2019-03-13 07:42
+     * @date: 2019-12-13 07:42
      * @description: 获取token中的用户Id
      */
     public static String getUserId(String token) {

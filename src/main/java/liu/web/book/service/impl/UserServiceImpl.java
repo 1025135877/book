@@ -15,7 +15,7 @@ import java.util.Map;
 
 /**
  * @Auther: luhailiang
- * @Date: 2019-03-12 16:56
+ * @Date: 2019-12-12 16:56
  * @Description: UserServiceImpl
  */
 @Service("userService")
@@ -28,7 +28,7 @@ public class UserServiceImpl implements UserService {
      * @param userId
      * @return : liu.web.book.model.User
      * @author: luhailiang
-     * @date: 2019-03-13 07:54
+     * @date: 2019-12-13 07:54
      * @description: 根据用户id查询用户
      */
     @Override
@@ -42,7 +42,7 @@ public class UserServiceImpl implements UserService {
      * @param userName
      * @return : liu.web.book.model.User
      * @author: luhailiang
-     * @date: 2019-03-13 07:55
+     * @date: 2019-12-13 07:55
      * @description: 根据用户名查询用户
      */
     @Override
@@ -54,7 +54,7 @@ public class UserServiceImpl implements UserService {
      * @param user
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-13 17:10
+     * @date: 2019-12-13 17:10
      * @description: 新增用户
      */
     @Override
@@ -91,7 +91,7 @@ public class UserServiceImpl implements UserService {
      * @param user
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-13 17:15
+     * @date: 2019-12-13 17:15
      * @description: 更新用户
      */
     @Override
@@ -128,7 +128,7 @@ public class UserServiceImpl implements UserService {
      * @param userId
      * @return : boolean
      * @author: luhailiang
-     * @date: 2019-03-18 21:53
+     * @date: 2019-12-18 21:53
      * @description: check邮箱是否存在
      */
     public boolean checkUserEmailExist(String userEmail, Long userId) {
@@ -155,7 +155,7 @@ public class UserServiceImpl implements UserService {
      * @param userId
      * @return : boolean
      * @author: luhailiang
-     * @date: 2019-03-18 21:53
+     * @date: 2019-12-18 21:53
      * @description: check手机号是否存在
      */
     public boolean checkUserPhoneExist(String userPhone, Long userId) {
@@ -167,7 +167,7 @@ public class UserServiceImpl implements UserService {
      * @param userId
      * @return : boolean
      * @author: luhailiang
-     * @date: 2019-03-18 21:54
+     * @date: 2019-12-18 21:54
      * @description: check用户名是否存在
      */
     public boolean checkUserNameExist(String userName, Long userId) {
@@ -189,7 +189,7 @@ public class UserServiceImpl implements UserService {
      * @param userId
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-13 17:15
+     * @date: 2019-12-13 17:15
      * @description: 根据id删除用户
      */
     @Override
@@ -206,7 +206,7 @@ public class UserServiceImpl implements UserService {
      * @param map
      * @return : java.util.List<liu.web.book.model.User>
      * @author: luhailiang
-     * @date: 2019-03-14 16:28
+     * @date: 2019-12-14 16:28
      * @description: 查询用户列表
      */
     @Override
@@ -218,7 +218,7 @@ public class UserServiceImpl implements UserService {
      * @param map
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-15 17:14
+     * @date: 2019-12-15 17:14
      * @description: 查询用户总数
      */
     @Override
@@ -230,7 +230,7 @@ public class UserServiceImpl implements UserService {
      * @param map
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-29 22:19
+     * @date: 2019-12-29 22:19
      * @description: 为用户分配角色
      */
     @Override

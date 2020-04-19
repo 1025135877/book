@@ -16,7 +16,7 @@ import java.util.Map;
 
 /**
  * @Auther: luhailiang
- * @Date: 2019-03-28 20:19
+ * @Date: 2019-12-28 20:19
  * @Description:
  */
 @RestController
@@ -35,7 +35,7 @@ public class RoleController {
      * @param role
      * @return : liu.web.book.common.JsonData
      * @author: luhailiang
-     * @date: 2019-03-28 20:23
+     * @date: 2019-12-28 20:23
      * @description: 新增角色
      */
     @PostMapping("/save")
@@ -55,7 +55,7 @@ public class RoleController {
      * @param role
      * @return : liu.web.book.common.JsonData
      * @author: luhailiang
-     * @date: 2019-03-28 20:25
+     * @date: 2019-12-28 20:25
      * @description: 更新角色
      */
     @PutMapping("/update")
@@ -74,7 +74,7 @@ public class RoleController {
      * @param roleId
      * @return : liu.web.book.common.JsonData
      * @author: luhailiang
-     * @date: 2019-03-28 20:28
+     * @date: 2019-12-28 20:28
      * @description: 删除角色(先根据角色id删除角色权限关联信息, 再根据角色id删除用户角色关联信息)
      */
     @DeleteMapping("/delete")
@@ -96,7 +96,7 @@ public class RoleController {
     /**
      * @return : liu.web.book.common.DataGridDataSource<liu.web.book.model.Role>
      * @author: luhailiang
-     * @date: 2019-03-28 21:48
+     * @date: 2019-12-28 21:48
      * @description: 服务端分页查询角色列表
      */
     @PostMapping("/list")
@@ -121,7 +121,7 @@ public class RoleController {
     /**
      *
      * @author: luhailiang
-     * @date: 2019-03-29 22:14
+     * @date: 2019-12-29 22:14
      * @param roleId
      * @param permissionIds
      * @return : liu.web.book.common.JsonData

@@ -21,7 +21,7 @@ import java.util.*;
 
 /**
  * @Auther: luhailiang
- * @Date: 2019-03-12 17:07
+ * @Date: 2019-12-12 17:07
  * @Description: UserController
  */
 @RestController
@@ -49,7 +49,7 @@ public class UserController {
      * @param userPassword
      * @return : liu.web.book.common.JsonData
      * @author: luhailiang
-     * @date: 2019-03-13 07:59
+     * @date: 2019-12-13 07:59
      * @description: 用户登录
      */
     @PostMapping("/login")
@@ -120,7 +120,7 @@ public class UserController {
      * @param user
      * @return : liu.web.book.common.JsonData
      * @author: luhailiang
-     * @date: 2019-03-13 18:21
+     * @date: 2019-12-13 18:21
      * @description: 新增用户
      */
     @PostMapping("/save")
@@ -140,7 +140,7 @@ public class UserController {
      * @param user
      * @return : liu.web.book.common.JsonData
      * @author: luhailiang
-     * @date: 2019-03-13 18:21
+     * @date: 2019-12-13 18:21
      * @description: 更新用户
      */
     @PutMapping("/update")
@@ -159,7 +159,7 @@ public class UserController {
      * @param userId
      * @return : liu.web.book.common.JsonData
      * @author: luhailiang
-     * @date: 2019-03-13 18:21
+     * @date: 2019-12-13 18:21
      * @description: 根据id删除用户
      */
     @DeleteMapping("/delete")
@@ -181,7 +181,7 @@ public class UserController {
      * @param userId
      * @return : liu.web.book.common.JsonData
      * @author: luhailiang
-     * @date: 2019-03-13 21:55
+     * @date: 2019-12-13 21:55
      * @description: 重置用户密码并发送邮件
      */
     @PostMapping("/sendMail")
@@ -210,7 +210,7 @@ public class UserController {
      * @param userId
      * @return : liu.web.book.common.JsonData
      * @author: luhailiang
-     * @date: 2019-03-13 22:23
+     * @date: 2019-12-13 22:23
      * @description: 根据用户id禁用用户
      */
     @PostMapping("/disable")
@@ -231,7 +231,7 @@ public class UserController {
      * @param userId
      * @return : liu.web.book.common.JsonData
      * @author: luhailiang
-     * @date: 2019-03-13 22:27
+     * @date: 2019-12-13 22:27
      * @description: 根据id启用用户
      */
     @PostMapping("/enable")
@@ -257,7 +257,7 @@ public class UserController {
      * @param rows
      * @return : liu.web.book.common.DataGridDataSource<liu.web.book.model.User>
      * @author: luhailiang
-     * @date: 2019-03-28 21:48
+     * @date: 2019-12-28 21:48
      * @description: 带条件服务端分页查询用户列表
      */
     @PostMapping("/list")
@@ -299,7 +299,7 @@ public class UserController {
      * @param roleIds
      * @return : liu.web.book.common.JsonData
      * @author: luhailiang
-     * @date: 2019-03-29 17:57
+     * @date: 2019-12-29 17:57
      * @description: 用户角色设置(先删除当前用户拥有的角色关系, 再重新设置)
      */
     @PostMapping("/saveRoleSet")

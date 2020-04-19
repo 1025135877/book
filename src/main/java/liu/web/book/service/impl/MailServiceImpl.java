@@ -13,7 +13,7 @@ import javax.annotation.Resource;
 
 /**
  * @Auther: luhailiang
- * @Date: 2019-03-13 21:35
+ * @Date: 2019-12-13 21:35
  * @Description:
  */
 @Service("mailService")
@@ -33,7 +33,7 @@ public class MailServiceImpl implements MailService {
      * @param content
      * @return : void
      * @author: luhailiang
-     * @date: 2019-03-13 21:36
+     * @date: 2019-12-13 21:36
      * @description: 发送简单邮件
      */
     @Override

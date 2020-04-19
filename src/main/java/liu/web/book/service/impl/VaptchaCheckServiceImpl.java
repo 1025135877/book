@@ -21,7 +21,7 @@ import java.util.List;
 
 /**
  * @Auther: luhailiang
- * @Date: 2019-03-25 16:10
+ * @Date: 2019-12-25 16:10
  * @Description:
  */
 @Service("vaptchaCheckService")
@@ -39,7 +39,7 @@ public class VaptchaCheckServiceImpl implements VaptchaCheckService {
      * @param ip
      * @return : boolean
      * @author: luhailiang
-     * @date: 2019-03-25 16:12
+     * @date: 2019-12-25 16:12
      * @description: 人机验证结果校验
      */
     @Override

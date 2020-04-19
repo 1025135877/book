@@ -183,7 +183,7 @@ CREATE TABLE `lend_return_list` (
 BEGIN;
 INSERT INTO `lend_return_list` VALUES (1, 1, 155479343253180, '2019-04-17', 10, '2019-04-27', '2019-04-18', 0, NULL, NULL);
 INSERT INTO `lend_return_list` VALUES (2, 2, 155479343253180, '2019-04-17', 20, '2019-05-07', '2019-04-19', 0, '', '');
-INSERT INTO `lend_return_list` VALUES (3, 3, 155479343253065, '2019-03-17', 10, '2019-03-27', '2019-04-19', 1, '轻微损毁', '损毁');
+INSERT INTO `lend_return_list` VALUES (3, 3, 155479343253065, '2019-12-17', 10, '2019-12-27', '2019-04-19', 1, '轻微损毁', '损毁');
 INSERT INTO `lend_return_list` VALUES (4, 4, 155479343253065, '2019-04-17', 20, '2019-05-07', '2019-04-19', 0, '', '');
 INSERT INTO `lend_return_list` VALUES (5, 6, 155479343253065, '2019-04-17', 20, '2019-05-07', '2019-04-19', 0, '', '');
 INSERT INTO `lend_return_list` VALUES (9, 1, 155479343253065, '2019-04-18', 10, '2019-04-28', '2019-04-19', 0, '', '');
@@ -212,10 +212,10 @@ CREATE TABLE `permission` (
 -- Records of permission
 -- ----------------------------
 BEGIN;
-INSERT INTO `permission` VALUES (1, '系统菜单', NULL, NULL, 'fa fa-desktop', '2019-03-26 00:00:00', '2019-03-26 00:00:00');
-INSERT INTO `permission` VALUES (2, '系统管理', '', 1, 'fa fa-cog', '2019-03-26 00:00:00', '2019-03-26 00:00:00');
-INSERT INTO `permission` VALUES (3, '用户管理', '/admin/user', 2, 'fa fa-user', '2019-03-26 00:00:00', '2019-03-26 00:00:00');
-INSERT INTO `permission` VALUES (4, '角色管理', '/admin/role', 2, 'fa fa-list', '2019-03-28 00:00:00', '2019-03-28 00:00:00');
+INSERT INTO `permission` VALUES (1, '系统菜单', NULL, NULL, 'fa fa-desktop', '2019-12-26 00:00:00', '2019-12-26 00:00:00');
+INSERT INTO `permission` VALUES (2, '系统管理', '', 1, 'fa fa-cog', '2019-12-26 00:00:00', '2019-12-26 00:00:00');
+INSERT INTO `permission` VALUES (3, '用户管理', '/admin/user', 2, 'fa fa-user', '2019-12-26 00:00:00', '2019-12-26 00:00:00');
+INSERT INTO `permission` VALUES (4, '角色管理', '/admin/role', 2, 'fa fa-list', '2019-12-28 00:00:00', '2019-12-28 00:00:00');
 INSERT INTO `permission` VALUES (5, '图书管理', NULL, 1, 'fa fa-book', '2019-04-09 00:00:00', '2019-04-09 00:00:00');
 INSERT INTO `permission` VALUES (6, '图书分类管理', '/admin/booktype', 5, 'fa fa-file-text', '2019-04-09 15:50:00', '2019-04-09 15:50:00');
 INSERT INTO `permission` VALUES (7, '应用管理', '/admin/permission', 2, 'fa fa-tasks', '2019-04-10 18:37:00', '2019-04-10 18:37:00');
@@ -243,10 +243,10 @@ CREATE TABLE `role` (
 -- Records of role
 -- ----------------------------
 BEGIN;
-INSERT INTO `role` VALUES (1, '系统管理员', '2019-03-28 00:00:00', '2019-03-28 00:00:00');
-INSERT INTO `role` VALUES (2, '借阅者', '2019-03-28 20:31:02', '2019-03-28 20:33:17');
-INSERT INTO `role` VALUES (4, '图书管理员', '2019-03-29 16:03:45', '2019-03-29 19:13:34');
-INSERT INTO `role` VALUES (5, '馆长', '2019-03-29 16:03:52', '2019-04-10 14:50:20');
+INSERT INTO `role` VALUES (1, '系统管理员', '2019-12-28 00:00:00', '2019-12-28 00:00:00');
+INSERT INTO `role` VALUES (2, '借阅者', '2019-12-28 20:31:02', '2019-12-28 20:33:17');
+INSERT INTO `role` VALUES (4, '图书管理员', '2019-12-29 16:03:45', '2019-12-29 19:13:34');
+INSERT INTO `role` VALUES (5, '馆长', '2019-12-29 16:03:52', '2019-04-10 14:50:20');
 COMMIT;
 
 -- ----------------------------
@@ -333,10 +333,10 @@ CREATE TABLE `user` (
 -- Records of user
 -- ----------------------------
 BEGIN;
-INSERT INTO `user` VALUES (155479343250980, 'admin', 'ba3873f74a5b46a4f93816721dad7345', '1176239106@qq.com', '13515107277', 1, '2019-03-12 00:00:00', '2019-04-17 13:38:20', '超级管理员');
-INSERT INTO `user` VALUES (155479343253065, 'huangjianzhi', 'ba3873f74a5b46a4f93816721dad7345', '826243171@qq.com', '13515107279', 1, '2019-03-13 19:07:52', '2019-03-29 16:54:11', '黄剑治');
-INSERT INTO `user` VALUES (155479343253111, 'luhailiang', 'ba3873f74a5b46a4f93816721dad7345', 'luhailiang98@gmail.com', '13515107280', 1, '2019-03-17 15:13:57', '2019-03-29 22:59:56', '陆海亮');
-INSERT INTO `user` VALUES (155479343253180, 'hejialiang', 'ba3873f74a5b46a4f93816721dad7345', '893524733@qq.com', '18218121213', 1, '2019-03-18 22:30:50', '2019-04-17 20:59:25', '何嘉亮');
+INSERT INTO `user` VALUES (155479343250980, 'admin', 'ba3873f74a5b46a4f93816721dad7345', '1176239106@qq.com', '13515107277', 1, '2019-12-12 00:00:00', '2019-04-17 13:38:20', '超级管理员');
+INSERT INTO `user` VALUES (155479343253065, 'huangjianzhi', 'ba3873f74a5b46a4f93816721dad7345', '826243171@qq.com', '13515107279', 1, '2019-12-13 19:07:52', '2019-12-29 16:54:11', '黄剑治');
+INSERT INTO `user` VALUES (155479343253111, 'luhailiang', 'ba3873f74a5b46a4f93816721dad7345', 'luhailiang98@gmail.com', '13515107280', 1, '2019-12-17 15:13:57', '2019-12-29 22:59:56', '陆海亮');
+INSERT INTO `user` VALUES (155479343253180, 'hejialiang', 'ba3873f74a5b46a4f93816721dad7345', '893524733@qq.com', '18218121213', 1, '2019-12-18 22:30:50', '2019-04-17 20:59:25', '何嘉亮');
 INSERT INTO `user` VALUES (155479496654441, 'guoweiyu', 'ba3873f74a5b46a4f93816721dad7345', '1402009986@qq.com', '13515107777', 1, '2019-04-09 15:29:30', '2019-04-17 16:13:47', '郭为宇');
 COMMIT;
 

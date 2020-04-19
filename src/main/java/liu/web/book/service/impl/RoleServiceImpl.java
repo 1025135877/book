@@ -13,7 +13,7 @@ import java.util.Map;
 
 /**
  * @Auther: luhailiang
- * @Date: 2019-03-28 20:17
+ * @Date: 2019-12-28 20:17
  * @Description: RoleServiceImpl
  */
 @Service("roleService")
@@ -26,7 +26,7 @@ public class RoleServiceImpl implements RoleService {
      * @param role
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-28 20:17
+     * @date: 2019-12-28 20:17
      * @description: 新增角色
      */
     @Override
@@ -42,7 +42,7 @@ public class RoleServiceImpl implements RoleService {
      * @param role
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-28 20:17
+     * @date: 2019-12-28 20:17
      * @description: 更新角色
      */
     @Override
@@ -60,7 +60,7 @@ public class RoleServiceImpl implements RoleService {
      * @param roleId
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-28 20:17
+     * @date: 2019-12-28 20:17
      * @description: 根据id删除角色
      */
     @Override
@@ -74,7 +74,7 @@ public class RoleServiceImpl implements RoleService {
      * @param userId
      * @return : void
      * @author: luhailiang
-     * @date: 2019-03-28 21:15
+     * @date: 2019-12-28 21:15
      * @description: 通过用户id删除用户角色表的关联关系
      */
     @Override
@@ -87,7 +87,7 @@ public class RoleServiceImpl implements RoleService {
      * @param roleId
      * @return : void
      * @author: luhailiang
-     * @date: 2019-03-28 21:28
+     * @date: 2019-12-28 21:28
      * @description: 通过角色id删除用户角色表的关联关系
      */
     @Override
@@ -100,7 +100,7 @@ public class RoleServiceImpl implements RoleService {
      * @param map
      * @return : java.util.List<liu.web.book.model.Role>
      * @author: luhailiang
-     * @date: 2019-03-28 21:40
+     * @date: 2019-12-28 21:40
      * @description: 查询角色列表
      */
     @Override
@@ -112,7 +112,7 @@ public class RoleServiceImpl implements RoleService {
      * @param map
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-28 21:41
+     * @date: 2019-12-28 21:41
      * @description: 查询角色总数
      */
     @Override
@@ -124,7 +124,7 @@ public class RoleServiceImpl implements RoleService {
      * @param userId
      * @return : java.util.List<liu.web.book.model.Role>
      * @author: luhailiang
-     * @date: 2019-03-29 17:14
+     * @date: 2019-12-29 17:14
      * @description: 根据用户id查找角色集合
      */
     @Override
@@ -136,7 +136,7 @@ public class RoleServiceImpl implements RoleService {
      * @param map
      * @return : int
      * @author: luhailiang
-     * @date: 2019-03-29 22:20
+     * @date: 2019-12-29 22:20
      * @description: 为角色分配权限
      */
     @Override
@@ -150,7 +150,7 @@ public class RoleServiceImpl implements RoleService {
      * @param roleId
      * @return : boolean
      * @author: luhailiang
-     * @date: 2019-03-28 20:37
+     * @date: 2019-12-28 20:37
      * @description: check角色名是否存在
      */
     public boolean checkRoleNameExist(String roleName, Integer roleId) {

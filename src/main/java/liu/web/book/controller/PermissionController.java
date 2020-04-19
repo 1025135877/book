@@ -16,7 +16,7 @@ import java.util.Map;
 
 /**
  * @Auther: luhailiang
- * @Date: 2019-03-29 20:06
+ * @Date: 2019-12-29 20:06
  * @Description:
  */
 @RestController
@@ -30,7 +30,7 @@ public class PermissionController {
      * @param roleId
      * @return : java.lang.Object
      * @author: luhailiang
-     * @date: 2019-03-29 20:19
+     * @date: 2019-12-29 20:19
      * @description: 加载权限树ztree(当前角色已经分配的权限信息会被选中)
      */
     @PostMapping("/loadRolePermissionData")

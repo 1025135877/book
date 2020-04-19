@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  * @Auther: luhailiang
- * @Date: 2019-03-24 21:17
+ * @Date: 2019-12-24 21:17
  * @Description: 生成随机密码工具类
  */
 public class PasswordCreateUtil {
@@ -13,7 +13,7 @@ public class PasswordCreateUtil {
      * @param len
      * @return : java.lang.String
      * @author: luhailiang
-     * @date: 2019-03-24 21:19
+     * @date: 2019-12-24 21:19
      * @description: 指定长度生成随机密码
      */
     public static String createPassWord(int len) {
